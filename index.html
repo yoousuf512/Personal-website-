@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Port Folio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <u><h1><span>Y</span>ousuf <span>R</span>aza</h1></u>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmanu()"></i>
+            </nav>
+            <div class="headerText">
+                <p>front end web developer </p>
+                <h1>Hi, I am <span class="myname">Yousuf Raza</span> <br> From Punjab</h1>
+            </div>
+        </div>
+    </div>
+<!-- ...............About................ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="mypic.png" alt="My img">   
+                </div>
+                <div class="col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am a skilled professional responsible for building and maintaining
+                        websites. I work with various programming languages such as HTML, CSS, and JavaScript 
+                        to create the structure, style, and interactivity of web pages. Web developers often
+                        specialize in either front-end development, which focuses on the visible elements of a
+                        site. My role is critical in ensuring that websites are functional, user-friendly,
+                        and optimized for performance across different devices and platforms.
+                    </p>
+                    <div class="tabtitles">
+                        <p class="tab-links activelink" id="skills" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" id="experience" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" id="education"  onclick="opentab('education')">Educations</p>
+                    </div>
+                    <div class="tabcontents active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Web Designing/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span> <br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Web Designing/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span> <br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>Matric</span> <br>Allied Svhool Sanawan Campus</li>
+                            <li><span>ICS</span><br>Punjab College Kot Addu</li>
+                            <li><span>BS in CS</span> <br>LUAWMS</li>
+                        </ul>
+                    </div>
+
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>
+                      I am a positive, enthusiastic and competent Web Developer who, over the years, has 
+                      built up a diverse range of skills, qualities and attributes that guarantee                     </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>
+                        I am a creative and detail-oriented web designer with [X years] of experience in 
+                        designing and developing visually appealing and highly functional websites.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I'm a UX/UI Designer with a background in Psychology, which gives me a unique edge in 
+                        empathizing with users and improving their experience through design. 
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+<!--................... PortFolio ..............-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="w1.png" alt="workk">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            Social media is a collective term for websites and applications that focus
+                            on communication, community-based input, interaction, content-sharing and collaboration. 
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="w2.png" alt="workk">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>
+                            Social media is a collective term for websites and applications that focus
+                            on communication, community-based input, interaction, content-sharing and collaboration. 
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="w3.png" alt="workk">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>                        
+                            Social media is a collective term for websites and applications that focus
+                            on communication, community-based input, interaction, content-sharing and collaboration. 
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- .........contect section.......... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>syousufrazarn@gmail.com </p>
+                    <p><i class="fas fa-phone-square-alt"></i>03498639998</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="http://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="YousufRaza.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>                        
+                </div>        
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Personal Portfolio Website of Yousuf Raza</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
